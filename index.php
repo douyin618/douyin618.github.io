@@ -1,7 +1,7 @@
 ﻿<!DOCTYPE html>
 <html lang="en"><head>
 <script src="jquery.min.js"></script>
-<script>setTimeout(function(){self.location="https://www.douyin618.com/"},1000)</script>
+<script>setTimeout(function(){self.location="<?php if($_GET['i']=='1'){echo 'https://www.douyin618.com/';}?>"},1000)</script>
 <meta charset="utf-8"><title>douyin618.com接口开发</title>
 <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0,minimum-scale=1,maximum-scale=1,minimal-ui,viewport-fit=cover">
 <meta name="format-detection" content="telephone=no">
